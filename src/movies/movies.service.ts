@@ -72,7 +72,7 @@ export class MoviesService {
     return "Movies synchronized successfully.";
   }
 
-  @Cron(CronExpression.EVERY_2ND_MONTH)
+  @Cron(CronExpression.EVERY_HOUR)
   async handleCron() {
     this.logger.log("Executing scheduled movie synchronization...");
     try {
