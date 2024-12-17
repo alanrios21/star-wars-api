@@ -14,3 +14,7 @@
  y usar un gestor de base de datos (en mi caso estoy usando TablePlus).
 
 Levantar el proyecto: ```npm run start:dev```
+
+Collection de Postman donde esta toda la documentacion de las apis. Pueden importarlo en su Workspace.
+
+[Star Wars Movies API.postman_collection.json](https://github.com/user-attachments/files/18172126/Star.Wars.Movies.API.postman_collection.json)
