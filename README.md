@@ -9,11 +9,8 @@
 2. ```npm install```
 3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
 4. Intalar Docker desktop si no lo tienes instalado.
-5. Cambiar las variables de entorno
-6. Levantar la base de datos con docker-compose up -d
- y usar un gestor de base de datos (en mi caso estoy usando TablePlus)
-
-```
-```
+5. Cambiar las variables de entorno.
+6. Levantar la base de datos con docker-compose up -d.
+ y usar un gestor de base de datos (en mi caso estoy usando TablePlus).
 
 Levantar el proyecto: ```npm run start:dev```
