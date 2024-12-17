@@ -1,0 +1,17 @@
+export const envConfig = () => ({
+    environment: process.env.NODE_ENV || 'dev',
+    port: +process.env.API_PORT || 3000,
+    jwtSecret: process.env.JWT_SECRET,
+    jwtExpiry: process.env.JWT_EXPIRY,
+    postgresUser: process.env.DB_USERNAME,
+    postgresPassword: process.env.DB_PASSWORD,
+    postgresDb: process.env.DB_NAME,
+    postgresPort: +process.env.DB_PORT,
+    postgresHost: process.env.DB_HOST,
+    apiHeaderFieldName: process.env.API_HEADER_FIELD_NAME,
+    apiKey: process.env.API_KEY,
+    apiBaseUrl: process.env.API_URL,
+    cloudinaryName: process.env.CLOUDINARY_NAME,
+    cloudinaryApiKey: process.env.CLOUDINARY_API_KEY,
+    cloudinaryApiSecret: process.env.CLOUDINARY_API_SECRET,
+  });
